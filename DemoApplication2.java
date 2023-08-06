@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class DemoApplication2 {
-    @GetMapping("/spring")
+    @GetMapping("/hello")
     public String hello() {
-        return "やっとできた";
+        return "hello world ";
     }
 }
